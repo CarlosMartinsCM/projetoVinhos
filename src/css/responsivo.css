@@ -1,0 +1,46 @@
+@media (max-width: 1120px) {
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-vinhos {
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-vinhos
+    .vinhos {
+        margin-top: 37px;
+    }
+
+    .selecao-de-vinhos .vinhos
+    .titulo {
+        font-size: 15px;
+    }
+
+    .selecao-de-vinhos
+    .lista-de-vinhos {
+        gap: 9px;
+    }
+
+    .selecao-de-vinhos
+    .vinho img {
+        width: 80px;
+    }
+
+    .vinho-selecionado
+    .vinho-grande {
+        width: 350px;
+        height: 350px;
+    }
+
+    .vinho-selecionado
+    .descricao-vinho {
+        width: 80%;
+        font-size: 20px;
+        margin: 20px auto;
+        height: 150px;
+    }
+
+}

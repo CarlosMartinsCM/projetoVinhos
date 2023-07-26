@@ -1,0 +1,104 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: cursive;
+    color: #ffffff;
+    /* background-color: #000000; */
+}
+
+.cabecalho {
+    /* background-color: aqua;     */
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho
+.logo{
+    width: 196px;
+    height: 152px;
+}
+
+.selecao-de-vinhos {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.selecao-de-vinhos .lista-de-vinhos {
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selecao-de-vinhos .vinhos {
+    /* background-color: darkslategray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-vinhos .vinhos .titulo {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, blue, red, white);
+    /* Adicione a propriedade border-image-slice para definir como a imagem será dividida */
+    border-image-slice: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-vinhos .vinhos img {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-vinhos .vinho.selecionado {
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.vinho-selecionado {
+    /* background-color: green; */
+    text-align: center;
+    max-height: 530px;
+    /* margin-bottom: 150px; */
+}
+
+.vinho-selecionado
+.vinho-grande {
+    width: 430px;
+    height: 430px;
+}
+
+.vinho-selecionado
+.nome-vinho {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgb(0, 0, 0), rgb(150, 241, 65));
+    border-image-slice: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+
+.vinho-selecionado
+.descricao-vinho {
+    /* background-color: red; */
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+    height: 70px;
+    overflow: auto;
+    margin-bottom: 20px;
+}

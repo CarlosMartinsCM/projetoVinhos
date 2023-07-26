@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title></title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/bandeiraChile.png"
+            alt="Bandeira Chile">
+    </header>
+
+    <main class="selecao-de-vinhos">
+        <section class="vinhos">
+            <h1 class="titulo">Escolha um vinho</h1>
+            <ul class="lista-de-vinhos">
+                <li class="vinho selecionado" id="almaviva-2020" data-name="Almaviva"
+                data-description="O Almaviva é a perfeita fusão entre os conhecimentos bordaleses da família Rothschild e os
+                conhecimentos do solo, videiras e região da Concha Y Toro. Estes dois produtores se fundiram neste
+                projeto único para criar o Almaviva, vinho produzido no Chile com técnicas Francesas. Desde o início
+                do projeto a concepção foi usar blends típicos bordaleses da margem esquerda, região onde a família
+                Rothschild tem suas propriedades. A uva Cabernet Sauvignon é a estrela principal, tendo como
+                coadjuvantes Cabernet Franc, Carmenere. O blend é feito usando as mesmas técnicas de vinificação de
+                Bordeaux, ou seja, nem todas uvas são usadas a cada safra. Isto é feito com objetivo de arredondar o
+                vinho, trazendo mais elegância e deixando mais macio e redondo, então a cada safra julgam quais uvas
+                se encaixarão melhor e usam blends diferentes, tendo sempre como base a Cabernet Sauvignon,
+                exatamente como a família Rothschild faz nos vinhos em Bordeaux.
+
+                Vinho de cor vermelho profundo, rubi intenso e com tons de roxo. Aromas de cassis, frutas pretas e
+                violetas. Notas de baunilha, cacau, alcaçuz e especiarias.">
+                    <img src="./src/images/card-almaviva-2020.jpg" alt="Vinho Almaviva">
+                </li>
+                <li class="vinho" id="clos-apalta-2019" data-name="Clos Apalta" data-description="Minha mãe, Alexandra Marnier Lapostolle, sempre sonhou em fazer o vinho perfeito. Ela passou anos em busca de um terroir excepcional para criar um vinho único que viria a se firmar como um dos melhores do mundo. Isso foi há 25 anos. Depois de cruzar vários continentes, ela encontrou a localização perfeita do vale de Apalta. Para que seu sonho se tornasse realidade, ela deixou que as montanhas ondulantes e o ar ensolarado falassem com ela, adivinhou seu extraordinário potencial e os domou. A perícia francesa refinaria a paisagem de tirar o fôlego com centenas de mudanças cuidadosas e ajustes magistrais. Assim nasceu o Clos Apalta, um vinho encantador de textura cintilante e complexidade que estimula os sentidos e aguça a imaginação.">
+                    <img src="./src/images/card-clos-apalta-2019.jpg" alt="Vinho Clos Apalta">
+                </li>
+                <li class="vinho" id="ge-2019" data-name="Emiliana Gê" data-description="Emiliana Gê Vinho Chileno.
+                É um vinho de grande personalidade, caráter, complexidade e longevidade. Após a colheita e seleção das uvas, elas são fermentadas em tanques de aço inoxidável, com controle de temperatura.
+                Após este processo 60% do vinho estagia durante 16 meses em barricas de carvalho francês, a fim de garantir maior estrutura ao vinho.">
+                    <img src="./src/images/card-ge-2019.jpg" alt="Vinho Gê">
+                </li>
+                <li class="vinho" id="las-pizzaras-chardonnay-2020" data-name="Las Pizzaras Chardonnay" data-description="Foi nos vinhedos da Errázuriz da costa do Aconcágua que nasceu este grande Chardonnay. As fileiras de onde vieram este vinho – Las Pizzaras – têm alto conteúdo de xisto (“pizarra”, em tradução espanhol), mesma rocha presente nos vinhedos do Douro. Ele vai além das notas já esperadas para a Chardonnay, começando com um perfume floral inebriante com toques de manteiga. Apesar do toque amanteigado aparecer também na boca, o vinho manteve acidez cítrica e caráter costeiro dos vinhos chilenos. “O vinho tem textura incrível e acidez nítida e pungente, mais comumente encontrada na Riesling do que na Chardonnay, e também tem mineralidade e salinidade esplêndidas”, disseram os críticos do Parker ao avaliarem a safra 2015 deste Chardonnay chileno.">
+                    <img src="./src/images/card-las-pizzaras-chardonnay-2020.jpg" alt="Vinho Pizzaras Chardonnay">
+                </li>
+                <li class="vinho" id="los-primos-pinotnoir-2020" data-name="L'Primos Pinotnoir"
+                data-description="Traiguén Los Primos Pinot Noir é complexo e elegante. Fincada em solo vulcânico, na região de Malleco, com mínima intervenção e 15% do vinho fermentado com cachos inteiros, este tinto revela notas intensas de frutas vermelhas e florais, além da intensidade de toques minerais, como ferro.">
+                    <img src="./src/images/card-los-primos-pinotnoir-2020.jpg" alt="Vinho Los Primos Pinotnoir">
+                </li>
+                <li class="vinho" id="purple-angel-2019" data-name="Purple Angel" data-description="O Purple Angel é um dos grandes ícones entre os vinhos chilenos e uma das maiores expressões da casta Carménère. Trata-se de um vinho de minúscula produção, de incrível estrutura e densidade para James Suckling, que concedeu 98 pontos para a safra de 2018. Um tinto realmente grandioso, com um toque de finesse raro entre os vinhos do Novo Mundo, bastante diferente dos exemplos mais comerciais de Carménère.">
+                    <img src="./src/images/card-purple-angel-2019.jpg" alt="Vinho Purple Angel">
+                </li>
+                <li class="vinho" id="secano-syrah-polkura-2020" data-name="Syrah Polkura" data-description="A Polkura foi criada em 2002 pelo enólogo Sven Bruchfeld e Gonzalo Muñoz, em Marchigüe, região que acreditaram ser a melhor para a Syrah. Embora esta uva seja a marca da vinícola, outras variedades como Malbec e Cabernet Sauvignon são cultivadas com sucesso. O lançamento mais recente é o Random, um corte de diferentes uvas, que varia conforme a safra. Seus vinhos têm concentração, elegância e estrutura. A Polkura produz ainda um Sauvignon Blanc e um Pinot Noir na região de Leyda, no Vale de San Antonio, a poucos quilômetros do oceano Pacífico. Sven Bruchfeld é um dos mais ativos membros do Movi  Movimiento de Viñateros Independientes.">
+                    <img src="./src/images/card-secano-syrah-polkura-2020.jpg" alt="Vinho Syrah Polkura">
+                </li>
+                <li class="vinho" id="sena-ina-sena-2020" data-name="Sena ina Sena" data-description="Vinho de cor rubi volácio, grande complexidade que criam uma deliciosa combinação entre frutas frescas (framboesas) e notas elegantes de tabaco, cacau e especiarias como pimenta negra.">
+                    <img src="./src/images/card-sena-ina-sena-2020.jpg" alt="Vinho Sena Ina">
+                </li>
+            </ul>
+        </section>
+        <section class="vinho-selecionado">
+            <img class="vinho-grande" src="./src/images/card-almaviva-2020.png" alt="vinho selecionado">
+
+            <div class="informacoes-vinho">
+                <h2 class="nome-vinho" id="nome-vinho">Almaviva</h2>
+                <p class="descricao-vinho" id="descricao-vinho">
+                    O Almaviva é a perfeita fusão entre os conhecimentos bordaleses da família Rothschild e os
+                    conhecimentos do solo, videiras e região da Concha Y Toro. Estes dois produtores se fundiram neste
+                    projeto único para criar o Almaviva, vinho produzido no Chile com técnicas Francesas. Desde o início
+                    do projeto a concepção foi usar blends típicos bordaleses da margem esquerda, região onde a família
+                    Rothschild tem suas propriedades. A uva Cabernet Sauvignon é a estrela principal, tendo como
+                    coadjuvantes Cabernet Franc, Carmenere. O blend é feito usando as mesmas técnicas de vinificação de
+                    Bordeaux, ou seja, nem todas uvas são usadas a cada safra. Isto é feito com objetivo de arredondar o
+                    vinho, trazendo mais elegância e deixando mais macio e redondo, então a cada safra julgam quais uvas
+                    se encaixarão melhor e usam blends diferentes, tendo sempre como base a Cabernet Sauvignon,
+                    exatamente como a família Rothschild faz nos vinhos em Bordeaux.
+
+                    Vinho de cor vermelho profundo, rubi intenso e com tons de roxo. Aromas de cassis, frutas pretas e
+                    violetas. Notas de baunilha, cacau, alcaçuz e especiarias.
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+    <script src="./src/js/index.js"></script>
+
+</html>
+
+<!--
+                                    Objetivo: 
+
+    Criar um site com os 8 melhores vinhos Chilenos;
+
+    1. Las Pizzaras Chardonnay 2020, Errazuriz – 97 pontos.
+
+    2. Purple Angel 2019, Viña Montes – 98 pontos.
+
+    3. Clos Apalta 2019, Clos Apalta – 99 pontos.
+
+    4. Selección de Parcelas Los Primos Pinot Noir 2020, Baettig – 96 pontos.
+
+    5. Secano Syrah 2020, Polkura – 96 pontos.
+
+    6. Seña 2020, Viña Seña – 98 pontos.
+
+    7. Gê 2019, Emiliana – 97 pontos.
+
+    8. Almaviva 2020, Viña Almaviva – 98 pontos.
+
+    1° Passo;
+        Conseguir as imagens a serem utilizadas no site.
+
+        Imagens pequenas parâmetros;
+        Largura - 123px;
+        Altura - 190px;
+
+        Imagens grandes parâmetros;
+        Largura - 429px;
+        Altura - 429px;
+
+    2° Procurar uma imagem legal para a logo do site.
+
+-->
